@@ -24,7 +24,7 @@ Debug.ListCallStack [/Count:number] [/ShowTypes:yes|no]
 [/ShowNames:yes|no] [/ShowValues:yes|no] [/ShowModule:yes|no]
 [/ShowLineOffset:yes|no] [/ShowByteOffset:yes|no]
 [/ShowLanguage:yes|no] [/IncludeCallsAcrossThreads:yes|no]
-[/ShowExternalCode:yes|no] [Thread:n] [index]
+[/ShowExternalCode:yes|no] [/Thread:n] [index]
 ```
 
 ## Arguments
@@ -75,7 +75,7 @@ Optional. Specifies whether to include calls to or from other threads. Default v
 
 Optional. Specifies whether to display Just My Code for the callstack. When Just My Code is off, all non-user code is displayed. When Just My Code is on, non-user code is displayed as `[external]` in the callstack output.
 
-Thread:`n`
+/Thread:`n`
 
 Optional. Displays the callstack for thread `n`. If no thread is specified, displays the callstack for the current thread.
 
